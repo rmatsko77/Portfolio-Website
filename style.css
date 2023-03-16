@@ -1,0 +1,249 @@
+html {
+    background-color: black;
+    font-family: Montserrat;
+    color: white;
+}
+
+.welcome {
+    position: relative;
+    overflow: hidden;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    
+}
+
+.welcome img{
+    height: 25rem;
+    width: 100%;
+    position: absolute;
+    opacity: 35%;
+}
+
+.welcome .name-card {
+    position: relative;
+    text-align: center;
+    display: block;
+    width: 35rem;
+    height: 10rem;
+    background-color: rgba(0, 0, 0, 0.574);
+}
+
+.name-card h2 {
+    color: rgb(202, 202, 202);
+    font-weight: 200;
+    margin-left: -15rem;
+    margin-top: -1.45rem;
+    font-size: 2rem;
+}
+
+.name-card h1 {
+    font-size: 4rem;
+    margin-top: 1.65rem;
+}
+
+.name-card h3 {
+    color: brown;
+    margin-left: 23rem;
+    margin-top: -2rem;
+    width: 20rem;
+    font-size: 1.5rem;
+    font-weight: 200;
+    font-style: italic;
+
+}
+
+header img {
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 4.5rem;
+    opacity: 75%;
+    z-index: 2;
+    position: fixed;
+    margin-top: 0;
+
+}
+
+.nav-logo {
+    height: 3.75rem;
+    margin: 1.25rem;
+}
+
+nav ul {
+    display: inline-flex;
+    list-style-type: none;
+    font-size: 1.25rem;
+    
+}
+
+nav ul li {
+    margin-right: 3rem;
+    margin-left: .25rem;
+    
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-style: italic;
+}
+
+.about h1 {
+    text-align: center;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.about .about-container {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    border-bottom: solid gray 1pt;
+    height: 33rem;
+}
+
+.about .about-container img {
+    height: 27rem;
+    width: 18rem;
+    margin-right: 5rem;
+    border-radius: 25% 10%;
+}
+
+.about .about-container p {
+    height: 20rem;
+    width: 27rem;
+    line-height: 27px;
+}
+
+.skills {
+    margin-top: 5rem;
+}
+
+.skills-centered {
+    display: flex;
+    justify-content: center;
+}
+
+.skills h2 {
+    text-align: center;
+    font-weight: 300;
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    border-bottom: solid gray 1pt;
+    padding-bottom: 3rem;
+    
+}
+
+.skills-card {
+    height: 14rem;
+    width: 12rem;
+    text-align: center;
+    background-color: rgb(104, 29, 29);
+    border-radius: 10%;
+    margin: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+
+.skills-card img {
+    height: 7rem;
+    width: 7rem;
+}
+
+.projects {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5rem;
+    border-bottom: solid gray 1pt;
+
+}
+
+
+.projects h2 {
+    text-align: center;
+    font-weight: 300;
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+
+.photography h2 {
+    text-align: center;
+    font-weight: 300;
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+
+.photography-description {
+    display: flex;
+    justify-content: center;
+}
+
+.photography-description img {
+    height: 2rem;
+    width: 2rem;
+    margin-left: 1rem;
+    padding-top: 0.75rem;
+}
+
+.photography .gallery {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.photography .column {
+    display: inline-flex;
+    width: 15%;
+
+}
+
+.photography .row {
+    width: 100%;
+}
+
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+    height: 6rem;
+    width: 9rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.photo-container {
+    position: relative;
+    display: none;
+}
+

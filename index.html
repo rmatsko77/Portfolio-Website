@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert Matsko</title>
+    <link rel="icon" href="images/Rm-logo.jpeg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#"><img class="nav-logo" src="images/Rm-logo.jpeg"></a>
+            <ul>
+                <li><a href="#about">About Me</li></a>
+                <li><a href='#skills'>Skills</li></a>
+                <li><a href="#projects">Projects</li></a>
+                <li><a href="#photography">Photography</li></a>
+                <li><a href="#contact">Contact</li></a>
+            </ul>
+        </nav>
+        <div class="welcome">
+            <img src="images/header-code-bg.jpeg">
+            <div class="name-card">
+                <h1>Robert Matsko</h1>
+                <h3>Software Engineer</h3>
+            </div>
+        </div>
+    </header>
+    <div id="about" class="about">
+        <h1>About Me</h1>
+        <div class="about-container">
+            <p>Hello, my name is Robert Matsko, and I am an aspiring software engineering professional. Originally from Harrisburg, Pennsylvania, I currently reside in New York City as I endeavor to establish a career in the technology industry. My past professional experience lies predominantly within healthcare, specifically in the operating room. I work as a Surgical Repair Specialist at New York Presbyterian Hospital, where my responsibilities entail maintaining and repairing a wide array of surgical instruments. However, having spent a significant amount of time in this field, I am now eager to transition into software engineering, applying my well-honed problem-solving skills to this new trade. At this time, I am undergoing the Codecademy Full-Stack Software Engineer career path and utilizing several other resources to supplement my learning.</p>
+            <img src="images/portrait.JPG" id="protrait">
+        </div>
+    </div>
+    <div id="skills" class="skills">
+        <h2>Current Skills</h2>
+        <div class="skills-centered">
+        <div class="skills-container">
+            <div class="skills-card">
+                <h4>HTML</h4>
+                <img src="images/html5-icon.png">
+                <h5>Skill Level: Intermediate</h5>
+            </div>
+            <div class="skills-card">
+                <h4>CSS</h4>
+                <img src="images/css3-logo.png">
+                <h5>Skill Level: Intermediate</h5>
+            </div>
+            <div class="skills-card">
+                <h4>JavaScript</h4>
+                <img src="images/js-logo.png">
+                <h5>Skill Level: Basic</h5>
+            </div>
+            <div class="skills-card">
+                <h4>Python</h4>
+                <img src="images/python-logo.png">
+                <h5>Skill Level: Basic</h5>
+            </div>
+            <div class="skills-card">
+                <h4>Git</h4>
+                <img src="images/git-logo.png">
+                <h5>Skill Level: Basic</h5>
+            </div>
+            <div class="skills-card">
+                <h4>Photoshop</h4>
+                <img src="images/ps-logo.png">
+                <h5>Skill Level: Intermediate</h5>
+            </div>
+            <div class="skills-card" class="ps">
+                <h4>Lightroom</h4>
+                <img src="images/lr-logo.png">
+                <h5>Skill Level: Master</h5>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="projects" id="projects">
+        <h2>Projects</h2>
+        <h4>Coming soon...</h4>
+    </div>
+    <div class="photography" id="photography">
+        <h2>Photography</h2>
+        <div class="photography-description">
+            <h4>I am also an amatuer steet photographer. Here are some of my favorites... Feel free to follow me on Instagram!</h4>
+            <a href="https://www.instagram.com/r.p.matsko/" target="_blank"><img src="images/ig-logo.png"></a>
+        </div>
+        <div class="gallery">
+            <div class="row">
+                <div class="column">
+                    <img src="images/gallary-img/Use these/RPM00935.jpg" onclick="changeImg(this)">
+                </div>
+                <div class="column">
+                    <img src="images/gallary-img/Use these/RPM01442.jpg" onclick="changeImg(this)">
+                </div>
+                <div class="column">
+                    <img src="images/gallary-img/Use these/RPM01510.jpg" onclick="changeImg(this)">
+                </div>
+                <div class="column">
+                    <img src="images/gallary-img/Use these/RPM01660.jpg" onclick="changeImg(this)">
+                </div>
+                <div class="column">
+                    <img src="images/gallary-img/Use these/RPM02539.jpg" onclick="changeImg(this)">
+                </div>
+                <div class="column">
+                    <img src="images/gallary-img/Use these/RPM02996.jpg" onclick="changeImg(this)">
+                </div>
+            </div>
+            <div class="photo-container">
+                <img id="open" style="width:100%">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
