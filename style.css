@@ -175,8 +175,9 @@ nav a:hover {
     display: block;
     justify-content: center;
     text-align: center;
-    margin-top: 5rem;
+    margin-top: 2rem;
     border-bottom: solid gray 1pt;
+    height: 20rem;
 
 }
 
@@ -185,7 +186,32 @@ nav a:hover {
     text-align: center;
     font-weight: 300;
     text-decoration: none;
-    margin-bottom: 2rem;
+    margin-bottom: .5rem;
+}
+
+.proj-container {
+    display: flex;
+    justify-content: center;
+}
+
+.proj-card {
+    height: 11rem;
+    width: 11rem;
+    background-color: rgb(104, 29, 29);
+    border-radius: 15px;
+}
+
+.proj-card img {
+    height: 5rem;
+    width: 5rem;
+}
+
+.proj-card a {
+    color: white;
+}
+
+.proj-card h4 {
+    font-size: .75rem;
 }
 
 .photography h2 {
